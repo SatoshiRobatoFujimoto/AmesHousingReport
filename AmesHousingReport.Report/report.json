@@ -19,7 +19,7 @@
   ],
   "sections": [
     {
-      "config": "{}",
+      "config": "{\"objects\":{\"outspacePane\":[{\"properties\":{\"width\":{\"expr\":{\"Literal\":{\"Value\":\"201L\"}}}}}]}}",
       "displayName": "ページ 1",
       "displayOption": 1,
       "filters": "[]",
@@ -27,11 +27,20 @@
       "name": "ReportSection",
       "visualContainers": [
         {
-          "config": "{\"name\":\"cfbf35cb046f0d094b59\",\"layouts\":[{\"id\":0,\"position\":{\"x\":9.597322175732218,\"y\":0,\"z\":0,\"width\":1270.9596652719665,\"height\":719.7991631799163,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"scatterChart\",\"projections\":{\"X\":[{\"queryRef\":\"Sum(ames_housing_dataset_train.LotArea)\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(ames_housing_dataset_train.target)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"ames_housing_dataset_train\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"LotArea\"},\"Name\":\"Sum(ames_housing_dataset_train.LotArea)\",\"NativeReferenceName\":\"LotArea\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"target\"},\"Name\":\"Sum(ames_housing_dataset_train.target)\",\"NativeReferenceName\":\"target\"}]},\"drillFilterOtherVisuals\":true}}",
+          "config": "{\"name\":\"b848ba8a6b869b079189\",\"layouts\":[{\"id\":0,\"position\":{\"x\":650.8014450815106,\"y\":0,\"z\":1,\"width\":628.715423189604,\"height\":359.26595610834516,\"tabOrder\":1}}],\"singleVisual\":{\"visualType\":\"columnChart\",\"projections\":{\"Category\":[{\"queryRef\":\"ames_housing_dataset_train.SaleCondition\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(ames_housing_dataset_train.target)\"}],\"Series\":[{\"queryRef\":\"ames_housing_dataset_train.SaleCondition\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"ames_housing_dataset_train\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"SaleCondition\"},\"Name\":\"ames_housing_dataset_train.SaleCondition\",\"NativeReferenceName\":\"SaleCondition\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"target\"}},\"Function\":1},\"Name\":\"Sum(ames_housing_dataset_train.target)\",\"NativeReferenceName\":\"target の平均\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"target\"}},\"Function\":1}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"legend\":[{\"properties\":{\"showGradientLegend\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
           "filters": "[]",
-          "height": 719.80,
-          "width": 1270.96,
-          "x": 9.60,
+          "height": 359.27,
+          "width": 628.72,
+          "x": 650.80,
+          "y": 0.00,
+          "z": 1.00
+        },
+        {
+          "config": "{\"name\":\"cfbf35cb046f0d094b59\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":0,\"z\":0,\"width\":650.8014450815106,\"height\":359.26595610834516,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"scatterChart\",\"projections\":{\"X\":[{\"queryRef\":\"Sum(ames_housing_dataset_train.LotArea)\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(ames_housing_dataset_train.target)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"ames_housing_dataset_train\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"LotArea\"},\"Name\":\"Sum(ames_housing_dataset_train.LotArea)\",\"NativeReferenceName\":\"LotArea\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"target\"},\"Name\":\"Sum(ames_housing_dataset_train.target)\",\"NativeReferenceName\":\"target\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 359.27,
+          "width": 650.80,
+          "x": 0.00,
           "y": 0.00,
           "z": 0.00
         }
