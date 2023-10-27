@@ -27,11 +27,20 @@
       "name": "ReportSection",
       "visualContainers": [
         {
-          "config": "{\"name\":\"cfbf35cb046f0d094b59\",\"layouts\":[{\"id\":0,\"position\":{\"x\":9.597322175732218,\"y\":0,\"z\":0,\"width\":1270.9596652719665,\"height\":719.7991631799163,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"scatterChart\",\"projections\":{\"X\":[{\"queryRef\":\"Sum(ames_housing_dataset_train.LotArea)\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(ames_housing_dataset_train.target)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"ames_housing_dataset_train\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"LotArea\"},\"Name\":\"Sum(ames_housing_dataset_train.LotArea)\",\"NativeReferenceName\":\"LotArea\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"target\"},\"Name\":\"Sum(ames_housing_dataset_train.target)\",\"NativeReferenceName\":\"target\"}]},\"drillFilterOtherVisuals\":true}}",
+          "config": "{\"name\":\"63e2214c11d9c9f28458\",\"layouts\":[{\"id\":0,\"position\":{\"x\":490,\"y\":420,\"z\":1,\"width\":300,\"height\":300,\"tabOrder\":1}}],\"singleVisual\":{\"visualType\":\"columnChart\",\"projections\":{\"Category\":[{\"queryRef\":\"ames_housing_dataset_train.Neighborhood\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(ames_housing_dataset_train.target)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"ames_housing_dataset_train\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Neighborhood\"},\"Name\":\"ames_housing_dataset_train.Neighborhood\",\"NativeReferenceName\":\"Neighborhood\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"target\"}},\"Function\":1},\"Name\":\"Sum(ames_housing_dataset_train.target)\",\"NativeReferenceName\":\"target の平均\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"target\"}},\"Function\":1}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
           "filters": "[]",
-          "height": 719.80,
-          "width": 1270.96,
-          "x": 9.60,
+          "height": 300.00,
+          "width": 300.00,
+          "x": 490.00,
+          "y": 420.00,
+          "z": 1.00
+        },
+        {
+          "config": "{\"name\":\"cfbf35cb046f0d094b59\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":0,\"z\":0,\"width\":1270,\"height\":720,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"scatterChart\",\"projections\":{\"X\":[{\"queryRef\":\"Sum(ames_housing_dataset_train.LotArea)\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(ames_housing_dataset_train.target)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"ames_housing_dataset_train\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"LotArea\"},\"Name\":\"Sum(ames_housing_dataset_train.LotArea)\",\"NativeReferenceName\":\"LotArea\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"target\"},\"Name\":\"Sum(ames_housing_dataset_train.target)\",\"NativeReferenceName\":\"target\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 720.00,
+          "width": 1270.00,
+          "x": 0.00,
           "y": 0.00,
           "z": 0.00
         }
