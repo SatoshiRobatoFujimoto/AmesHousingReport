@@ -10,11 +10,11 @@
       "nodes": [
         {
           "location": {
-            "x": 0,
+            "x": 284,
             "y": 0
           },
-          "nodeIndex": "ames_housing_dataset_train",
-          "nodeLineageTag": "c97f3b0a-56c7-406e-8468-05a753b7ffcc",
+          "nodeIndex": "クエリ1",
+          "nodeLineageTag": "93cc7f17-a0d1-4396-9b66-b0e503c8b4a2",
           "size": {
             "height": 300,
             "width": 234

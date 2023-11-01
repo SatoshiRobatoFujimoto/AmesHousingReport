@@ -19,7 +19,7 @@
   ],
   "sections": [
     {
-      "config": "{\"objects\":{\"outspacePane\":[{\"properties\":{\"width\":{\"expr\":{\"Literal\":{\"Value\":\"201L\"}}}}}]}}",
+      "config": "{}",
       "displayName": "ページ 1",
       "displayOption": 1,
       "filters": "[]",
@@ -27,29 +27,29 @@
       "name": "ReportSection",
       "visualContainers": [
         {
-          "config": "{\"name\":\"76f9e209cba31bfa507b\",\"layouts\":[{\"id\":0,\"position\":{\"x\":650.1052631578947,\"y\":430.3157894736842,\"z\":1001,\"width\":629.8947368421053,\"height\":289.6842105263158,\"tabOrder\":1001}}],\"singleVisual\":{\"visualType\":\"columnChart\",\"projections\":{\"Category\":[{\"queryRef\":\"ames_housing_dataset_train.target\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(ames_housing_dataset_train.target)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"ames_housing_dataset_train\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"target\"},\"Name\":\"ames_housing_dataset_train.target\",\"NativeReferenceName\":\"target\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"target\"}},\"Function\":5},\"Name\":\"Sum(ames_housing_dataset_train.target)\",\"NativeReferenceName\":\"target のカウント\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"target\"}},\"Function\":5}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "config": "{\"name\":\"5499b3dca990084f2e9e\",\"layouts\":[{\"id\":0,\"position\":{\"x\":650.1052631578947,\"y\":431.1578947368421,\"z\":1000,\"width\":629.8947368421053,\"height\":289.6842105263158,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"columnChart\",\"projections\":{\"Category\":[{\"queryRef\":\"クエリ1.target\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(クエリ1.target)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"ク\",\"Entity\":\"クエリ1\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"ク\"}},\"Property\":\"target\"},\"Name\":\"クエリ1.target\",\"NativeReferenceName\":\"target1\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"ク\"}},\"Property\":\"target\"}},\"Function\":5},\"Name\":\"Sum(クエリ1.target)\",\"NativeReferenceName\":\"target のカウント\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"ク\"}},\"Property\":\"target\"}},\"Function\":5}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
           "filters": "[]",
           "height": 289.68,
           "width": 629.89,
           "x": 650.11,
-          "y": 430.32,
-          "z": 1001.00
+          "y": 431.16,
+          "z": 1000.00
         },
         {
-          "config": "{\"name\":\"b848ba8a6b869b079189\",\"layouts\":[{\"id\":0,\"position\":{\"x\":650.8014450815106,\"y\":0,\"z\":1000,\"width\":628.715423189604,\"height\":359.26595610834516,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"columnChart\",\"projections\":{\"Category\":[{\"queryRef\":\"ames_housing_dataset_train.SaleCondition\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(ames_housing_dataset_train.target)\"}],\"Series\":[{\"queryRef\":\"ames_housing_dataset_train.SaleCondition\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"ames_housing_dataset_train\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"SaleCondition\"},\"Name\":\"ames_housing_dataset_train.SaleCondition\",\"NativeReferenceName\":\"SaleCondition\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"target\"}},\"Function\":1},\"Name\":\"Sum(ames_housing_dataset_train.target)\",\"NativeReferenceName\":\"target の平均\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"target\"}},\"Function\":1}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"legend\":[{\"properties\":{\"showGradientLegend\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "config": "{\"name\":\"87bdef2fed6787ae32b0\",\"layouts\":[{\"id\":0,\"position\":{\"x\":650.8014450815106,\"y\":0,\"z\":2000,\"width\":628.715423189604,\"height\":359.26595610834516,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"columnChart\",\"projections\":{\"Category\":[{\"queryRef\":\"クエリ1.SaleCondition\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(クエリ1.target)\"}],\"Series\":[{\"queryRef\":\"クエリ1.SaleCondition\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"ames_housing_dataset_train\",\"Type\":0},{\"Name\":\"ク\",\"Entity\":\"クエリ1\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"ク\"}},\"Property\":\"SaleCondition\"},\"Name\":\"クエリ1.SaleCondition\",\"NativeReferenceName\":\"SaleCondition1\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"ク\"}},\"Property\":\"target\"}},\"Function\":1},\"Name\":\"Sum(クエリ1.target)\",\"NativeReferenceName\":\"target の平均\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"target\"}},\"Function\":1}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"legend\":[{\"properties\":{\"showGradientLegend\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
           "filters": "[]",
           "height": 359.27,
           "width": 628.72,
           "x": 650.80,
           "y": 0.00,
-          "z": 1000.00
+          "z": 2000.00
         },
         {
-          "config": "{\"name\":\"cfbf35cb046f0d094b59\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":0,\"z\":0,\"width\":650.8014450815106,\"height\":359.26595610834516,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"scatterChart\",\"projections\":{\"X\":[{\"queryRef\":\"Sum(ames_housing_dataset_train.LotArea)\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(ames_housing_dataset_train.target)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"ames_housing_dataset_train\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"LotArea\"},\"Name\":\"Sum(ames_housing_dataset_train.LotArea)\",\"NativeReferenceName\":\"LotArea\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"target\"},\"Name\":\"Sum(ames_housing_dataset_train.target)\",\"NativeReferenceName\":\"target\"}]},\"drillFilterOtherVisuals\":true}}",
+          "config": "{\"name\":\"cfbf35cb046f0d094b59\",\"layouts\":[{\"id\":0,\"position\":{\"x\":10.105263157894736,\"y\":0,\"z\":0,\"width\":629.8947368421053,\"height\":421.05263157894734,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"scatterChart\",\"projections\":{\"X\":[{\"queryRef\":\"Sum(クエリ1.LotArea)\",\"active\":true}],\"Y\":[{\"queryRef\":\"クエリ1.target\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"ク\",\"Entity\":\"クエリ1\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"ク\"}},\"Property\":\"LotArea\"},\"Name\":\"Sum(クエリ1.LotArea)\",\"NativeReferenceName\":\"LotArea1\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"ク\"}},\"Property\":\"target\"},\"Name\":\"クエリ1.target\",\"NativeReferenceName\":\"target\"}]},\"drillFilterOtherVisuals\":true}}",
           "filters": "[]",
-          "height": 359.27,
-          "width": 650.80,
-          "x": 0.00,
+          "height": 421.05,
+          "width": 629.89,
+          "x": 10.11,
           "y": 0.00,
           "z": 0.00
         }
