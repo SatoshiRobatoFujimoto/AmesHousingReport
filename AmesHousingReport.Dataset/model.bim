@@ -256,6 +256,10 @@
           {
             "name": "PBI_ResultType",
             "value": "Table"
+          },
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "ナビゲーション"
           }
         ],
         "columns": [
